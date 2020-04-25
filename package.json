@@ -1,0 +1,25 @@
+{
+  "name": "@danetheory/monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "12.x",
+    "yarn": ">=2.0.0",
+    "npm": false
+  },
+  "workspaces": [
+    "packages/web/*",
+    "packages/vendors/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "reset:cache": "yarn cache clean",
+    "reset:rebuild": "yarn rebuild",
+    "g:install": "yarn install --check-cache",
+    "g:reset": "yarn reset:cache && yarn reset:rebuild && yarn g:install",
+    "g:i": "yarn dlx ultra g:reset",
+    "dev": "yarn workspace @danetheory/web run dev",
+    "build": "yarn workspace @danetheory/web run build",
+    "start": "yarn workspace @danetheory/web run start"
+  }
+}

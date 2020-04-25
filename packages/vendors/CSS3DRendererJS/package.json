@@ -1,0 +1,12 @@
+{
+  "name": "@danetheory/css3drendererjs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "@danetheory/threejs": "workspace:*"
+  },
+  "scripts": {
+    "start": "yarn node ."
+  }
+}
