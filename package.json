@@ -9,7 +9,8 @@
   },
   "workspaces": [
     "packages/bar",
-    "packages/web"
+    "packages/web",
+    "packages/stores/periodic-table-db"
   ],
   "scripts": {
     "dev": "next dev packages/web",

@@ -1,0 +1,13 @@
+{
+  "name": "@danetheory/periodic-table-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "node -r esm ."
+  },
+  "devDependencies": {
+    "esm": "latest"
+  }
+}
