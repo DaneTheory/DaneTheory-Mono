@@ -1,6 +1,11 @@
 {
   "name": "@danetheory/web",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.x",
+    "yarn": ">=1.22.0",
+    "npm": false
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",

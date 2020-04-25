@@ -88,16 +88,12 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "../../.yarn/$$virtual/next-virtual-551ec68a02/0/cache/next-npm-9.3.5-ddc7e18ed9-2.zip/node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=on-init-server!./");
+/******/ 	return __webpack_require__(__webpack_require__.s = "eCED");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "../../.yarn/$$virtual/next-virtual-551ec68a02/0/cache/next-npm-9.3.5-ddc7e18ed9-2.zip/node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=on-init-server!./":
-/*!**************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/bdane/Repos/Open_Source/OWNER/Experiments/with-yarn-workspaces-app/.yarn/$$virtual/next-virtual-551ec68a02/0/cache/next-npm-9.3.5-ddc7e18ed9-2.zip/node_modules/next/dist/build/webpack/loaders/next-plugin-loader.js?middleware=on-init-server ***!
-  \**************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
+/***/ "eCED":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -113,4 +109,3 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 /******/ });
-//# sourceMappingURL=init-server.js.map
