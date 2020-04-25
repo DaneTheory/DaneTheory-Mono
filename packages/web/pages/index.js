@@ -1,14 +1,14 @@
 // import Foo from 'foo'
-// import Bar from 'bar'
-import ThreeJS from '@danetheory/threejs'
-import TrackballControlsJS from '@danetheory/trackballcontrolsjs'
-import CSS3DRendererJS from '@danetheory/css3drendererjs'
-import TweenJS from '@danetheory/tweenjs'
+import Bar from '@danetheory/bar'
+// import ThreeJS from '@danetheory/threejs'
+// import TrackballControlsJS from '@danetheory/trackballcontrolsjs'
+// import CSS3DRendererJS from '@danetheory/css3drendererjs'
+// import TweenJS from '@danetheory/tweenjs'
 
 
 export default () => (
   <>
-
+  <Bar />
     <div id="container"></div>
 
     <div id="menu">

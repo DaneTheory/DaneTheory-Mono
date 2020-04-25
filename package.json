@@ -1,25 +1,26 @@
 {
-  "name": "@danetheory/monorepo",
+  "name": "danetheory",
   "version": "1.0.0",
   "private": true,
   "engines": {
     "node": "12.x",
-    "yarn": ">=2.0.0",
+    "yarn": "1.22.x",
     "npm": false
   },
   "workspaces": [
-    "packages/web/*",
-    "packages/vendors/*",
-    "packages/*"
+    "packages/bar",
+    "packages/web"
   ],
   "scripts": {
-    "reset:cache": "yarn cache clean",
-    "reset:rebuild": "yarn rebuild",
-    "g:install": "yarn install --check-cache",
-    "g:reset": "yarn reset:cache && yarn reset:rebuild && yarn g:install",
-    "g:i": "yarn dlx ultra g:reset",
-    "dev": "yarn workspace @danetheory/web run dev",
-    "build": "yarn workspace @danetheory/web run build",
-    "start": "yarn workspace @danetheory/web run start"
+    "dev": "next dev packages/web",
+    "build": "next build packages/web",
+    "start": "next start packages/web"
+  },
+  "dependencies": {
+    "next": "latest",
+    "next-transpile-modules": "^3.0.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "styled-jsx": "^3.2.5"
   }
 }
